@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Marker;
+  src: url("../assets/fonts/PermanentMarker-Regular.ttf");
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(160deg, #696292 50%, #302B41 50%);
+  font-family: Marker;
+  user-select: none;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}

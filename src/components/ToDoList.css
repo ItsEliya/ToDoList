@@ -1,0 +1,31 @@
+.to-do-list-container {
+  background-color: white;
+  width: 40vw;
+  height: 75vh;
+  border-radius: 52px;
+  margin: auto;
+  margin-top: 5%;
+  box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.date {
+  color: #848484;
+  font-size: 22px;
+}
+
+.title {
+  font-size: 94px;
+}
+
+@media screen and (max-width: 768px) {
+  .to-do-list-container {
+    width: 90%;
+    margin-top: 10%;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+}
